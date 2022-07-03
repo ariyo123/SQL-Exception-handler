@@ -40,7 +40,7 @@ else:
     #print(contents1)
     
     try:
-        conn = msql.connect(host='localhost', database='housing_data', user='root', password='Magfum12@')
+        conn = msql.connect(host='localhost', database='housing_data', user='root', password='0@')
         if conn.is_connected():
             cursor = conn.cursor()
             cursor.execute("select database();")
